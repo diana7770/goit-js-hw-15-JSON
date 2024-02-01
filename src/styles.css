@@ -7,7 +7,8 @@ label {
 input {
   margin-right: auto;
   margin-left: auto;
-  width: 200px;
+  margin-bottom: 10px;
+  width: 400px;
   border: solid grey 2px;
   border-radius: 4px;
 }
@@ -16,7 +17,9 @@ form {
   display: flex;
   text-align: center;
   flex-direction: column;
-  gap: 10px;
+  display: block;
+  margin: 0 auto;
+  gap: 20px;
 }
 
 .close {
@@ -55,6 +58,8 @@ form {
 }
 
 .btn {
+  display: block;
+  margin: 0 auto;
   border: solid rgb(15, 80, 117) 2px;
   border-radius: 4px;
   height: 30px;

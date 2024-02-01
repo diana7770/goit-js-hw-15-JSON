@@ -7,7 +7,8 @@ label {
 input {
   border: 2px solid gray;
   border-radius: 4px;
-  width: 200px;
+  width: 400px;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,8 +16,9 @@ input {
 form {
   text-align: center;
   flex-direction: column;
-  gap: 10px;
-  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  display: block;
 }
 
 .close {
@@ -60,6 +62,8 @@ form {
   border-radius: 4px;
   width: 100px;
   height: 30px;
+  margin: 0 auto;
+  display: block;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
