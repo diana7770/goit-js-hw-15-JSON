@@ -2,10 +2,12 @@
   "name": "goit-js-hw-15-json",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://diana7770.github.io/goit-js-hw-15-JSON/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /jsonhw"
+    "build": "parcel build src/index.html --public-url /goit-js-hw-15-JSON",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,8 @@
   "bugs": {
     "url": "https://github.com/diana7770/goit-js-hw-15-JSON/issues"
   },
-  "homepage": "https://github.com/diana7770/goit-js-hw-15-JSON#readme",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.11.0"
   }
 }
